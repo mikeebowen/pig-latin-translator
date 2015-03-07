@@ -1,4 +1,9 @@
 $(document).ready(function() {
+  $("#word-to-translate").keyup(function(event){
+        if(event.keyCode == 13){
+            $("#translate-button").click();
+        }
+    });
   $("#translate-button").on("click", function(){
     // create variable for pig latin word
     var pigLatinWord = "";
