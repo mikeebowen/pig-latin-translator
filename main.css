@@ -1,0 +1,26 @@
+body {
+  background-image: url(img/cartoon-pig-speech-bubble.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  width: 100%;
+}
+
+.pig {
+  height: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.textBox {
+  /*margin-right: auto;*/
+  margin-left: 400px;
+}
+
+.pig-latin {
+  margin: 50px auto auto 550px;
+  font-size: 1.5em;
+  list-style: none;
+}
