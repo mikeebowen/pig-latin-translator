@@ -20,12 +20,16 @@ $(document).ready(function() {
       // turn array back into string
       pigLatinWord = $wordToTranslate.join("");
       $("#pig-latin-words").append("<li>" + pigLatinWord + "way" + "</li>");
+      // clear text box
+      $("#word-to-translate").val("");
     } else {
       // add first letter to end or array
       $wordToTranslate.push(firstLetter);
       // turn array back into string
       pigLatinWord = $wordToTranslate.join("");
       $("#pig-latin-words").append("<li>" + pigLatinWord + "ay" + "</li>");
+      // clear text box
+      $("#word-to-translate").val("");
     }
   })
 });
